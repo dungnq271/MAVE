@@ -1,5 +1,5 @@
 # Run locally
-AMAZON_META_DATA="./All_Amazon_Meta.json"
+AMAZON_META_DATA="./All_Amazon_Meta.json.gz"
 
 python3 clean_amazon_product_metadata_main.py \
 --input_amazon_product_metadata_json_filename="${AMAZON_META_DATA}" \
