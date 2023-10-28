@@ -47,7 +47,10 @@ _FEATURE = 'feature'
 _PRICE = 'price'
 # Brand name
 _BRAND = 'brand'
-_SOURCES = (_TITLE, _DESCRIPTION, _FEATURE, _PRICE, _BRAND)
+# Image URL
+_IMAGE_URL = 'imageURL'
+
+_SOURCES = (_TITLE, _DESCRIPTION, _FEATURE, _PRICE, _BRAND, _IMAGE_URL)
 
 # The type for a JSON example.
 _JsonObject = Mapping[str, Union[str, Sequence[Any]]]
